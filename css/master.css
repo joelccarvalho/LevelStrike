@@ -1,0 +1,40 @@
+.login_container{
+  text-align: center;
+  width: 40%
+}
+
+.login_name{
+  float:left;
+}
+
+.login_namebox{
+  width: 100%;
+  padding: 10px 10px;
+  margin: 2% 0;
+  box-sizing: border-box;
+  border: 2px solid #999966;
+  border-radius: 4px;
+}
+
+.login_password{
+  float:left;
+}
+
+.login_passwordbox{
+  width: 100%;
+  padding: 10px 10px;
+  margin: 2% 0;
+  box-sizing: border-box;
+  border: 2px solid #999966;
+  border-radius: 4px;
+}
+
+.login_botao{
+
+}
+
+@media (max-width: 768px){
+  .login_container{
+    text-align: center;
+    width: 60%
+}

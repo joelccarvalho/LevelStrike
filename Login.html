@@ -7,15 +7,17 @@
     <link rel="stylesheet" href="./css/master.css" media="screen" title="no title">
   </head>
   <body>
-    <container class="container_login">
+    <div class="container login_container">
     <h1>Level Strike</h1>
+    <br><br>
     <form>
-      <laber for="Nome">Nome: </label><br>
-      <input type ="text" id="Username" placeholder="Please enter your username..."> </input>
-      <laber for="Password">Password: </label><br>
-      <input type ="text" id="Password" placeholder="Please enter your password..."> </input>
-      <br><br>
-      <input type="submit" name="submitbutton" value="Send">
-    </form>
+        <label for="Nome" class="login_name">Username: </label><br><br>
+        <input type ="text" id="Username" class="login_namebox" placeholder="Please enter your username..."> </input><br><br><br>
+        <br><label for="Password" class="login_password">Password: </label><br><br>
+        <input type ="password" id="Password" placeholder="Please enter your password..." class="login_passwordbox"> </input><br>
+        <br><br>
+        <input type="submit" classe="login_botao" name="submitbutton" value="Login">
+      </form>
+    </div>
   </body>
 </html>
