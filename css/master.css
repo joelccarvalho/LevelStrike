@@ -1,0 +1,355 @@
+@font-face {
+    src:url('../fonts/BodoniBold.woff');
+    font-family: 'BodoniBold';
+}
+
+@font-face {
+    src:url('../fonts/Lato.woff');
+    font-family: 'Lato';
+}
+
+.fundo_imagem{
+  background: url(../imagens/fundo.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1%;
+}
+
+ul li a{
+  color: white;
+  font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+}
+
+.navbar-nav li.dropdown:hover > ul.dropdown-menu {
+  display:block;
+}
+
+.navbar-nav{
+  float: right;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #9AFE2E;
+}
+
+.navbar-default {
+  background-color: rgba(212, 1, 1, 0);
+  border-color: rgba(41, 37, 37, 0);
+}
+
+.navbar-default .navbar-nav>.active>a{
+  color: #9AFE2E;
+  background-color: rgba(41, 37, 37,0);
+}
+
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #9AFE2E;
+  background-color: rgba(41, 37, 37,0);
+}
+
+.navbar-default .navbar-nav>.open>a {
+  color: #9AFE2E;
+  background-color: rgba(41, 37, 37,0);
+}
+
+.navbar-default .navbar-nav>.open>a:hover {
+  color: #9AFE2E;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: #9AFE2E;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+    color: #9AFE2E;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: #9AFE2E;
+    background-color: #6f6b79;
+}
+
+.navbar-default .navbar-nav>li>a:focus{
+  color: white;
+}
+
+.logo{
+  text-decoration: none;
+  font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+}
+
+/*Afastar o menu todo para a direita*/
+.home{
+  font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+  margin-left: 850px;
+}
+
+body{
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+}
+
+/*Personalizar o logo*/
+.logo{
+  color: #fff;
+  letter-spacing: 10px;
+  font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+  float: left;
+  margin-left: 10px;
+}
+
+/*Centrar e personalizar texto e o botão*/
+.centrar{
+  margin-top: 100px;
+  font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+  text-align: center;
+}
+
+.music_bands{
+  font-size: 100px;
+  color: white;
+}
+
+.frase_centro{
+  font-size: 20px;
+  color: white;
+}
+
+/*Personalizar botão*/
+.btn{
+  margin-top: 30px;
+  font: 14px;
+  background: #9AFE2E;
+  color: white;
+  padding: 15px 25px 15px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 0px;
+  text-decoration: none;
+}
+
+.botao:hover{
+  background: green;
+  }
+
+
+/*ABOUT*/
+/*Personalizar about*/
+.about_header{
+  font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/*linha a separar titulo e conteudo*/
+.hr_about{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  margin-bottom: 20px;
+}
+
+/*Definir cor e tipo de letra para o about.html*/
+.artigo_about{
+  font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+}
+
+/*Personalizar texto*/
+article.texto{
+  text-align: justify;
+}
+
+/*Tamanho da imagem*/
+figure img.imagem{
+  height: 300px;
+}
+
+
+/*BAND */
+.nome_banda{
+  font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+}
+
+/*Personalizar imagem maior*/
+.img_grande{
+	height: 300px;
+}
+
+/*Personalizar nome do disco*/
+article p.nome_disco{
+  font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+/*Personalizar texto do disco*/
+article p.texto_disco{
+  font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+  text-align: justify;
+  font-size: 12px;
+  color: black;
+}
+
+/*BANDS */
+p.bands_titulo{
+  font-size: 30px;
+  font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+  color: #2799C2;
+  margin-left: 2.5%;
+  font-weight: bold;
+}
+
+/*Personalizar separador*/
+.separador_bands{
+  border: 0;
+  height: 0.5px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  width: 95%;
+}
+
+.img_band{
+  height: 320px;
+  padding-bottom: 20px;
+}
+
+section.centrar_bandas article img:hover {
+    opacity: 0.8;
+}
+
+article p.titulo_banda {
+    color: #2799C2;
+    font-size: 25px;
+    font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+}
+
+section.centrar_bandas article a p.titulo_banda:hover {
+    text-decoration: underline;
+    color: #2799C2;
+}
+
+section.centrar_bandas article a p.texto_banda:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+.texto_banda {
+    font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+    color: black;
+}
+
+/*Contact*/
+
+/*Personalizar titulo*/
+.form_titulo{
+  font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*Personalizar formulario*/
+form.formulario{
+  font-family: 'Lato', 'Roboto', 'BodoniBold', 'Arial', sans-serif;
+  font-size: 20px;
+  border: 2px solid #9AFE2E;
+  border-radius: 20px;
+  color: black;
+  margin-left: 100px;
+}
+
+/*Personalizar lado esquerdo*/
+article.esquerda{
+  float: left;
+}
+
+/*Personalizar lado direito*/
+article.direita{
+  float: left;
+}
+
+.hr_formulario{
+  border: 0;
+  height: 0.5px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+}
+
+.form_titulo{
+  margin-top: 20px;
+  color: black;
+}
+
+/*Personalizar caixa de texto*/
+.form_nome{
+  border: 1px solid #9AFE2E;
+}
+
+.form_email{
+  border: 1px solid #9AFE2E;
+}
+
+.form_numtele{
+  border: 1px solid #9AFE2E;
+}
+
+.form_mensagem{
+  height:121px;
+  border: 1px solid #9AFE2E;
+}
+
+.form_assunto{
+  border: 1px solid #9AFE2E;
+}
+
+/*Personalizar botao*/
+.botao_submeter{
+  background: #9AFE2E;
+  color: white;
+  padding: 15px 25px 15px 25px;
+  border-radius: 25px;
+  border: 0px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*Personalizar botao cancelar*/
+.botao_cancelar{
+  background: #9AFE2E;
+  color: white;
+  padding: 15px 25px 15px 25px;
+  border-radius: 25px;
+  border: 0px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.alinhar_botoes{
+  margin-left: 36.5%;
+}
+
+.botao_submeter:hover{
+  background: green;
+}
+
+.botao_cancelar:hover{
+  background: green;
+}
+
+label{
+  font-weight: 100;
+}
