@@ -2,9 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Criar Utilizador</title>
+    <title>Criar Conta</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/master.css" media="screen" title="no title">
   </head>
   <body>
+    <div class="container criar_conta_conteudo">
+      <form>
+        <p class="criar_conta_titulo">Criar Conta</p>
+        <label for="username" class="criar_conta_username">Username:</label>
+        <br>
+        <input class="criar_conta_box_name" type="text" id="nome"/>
+        <br><br>
+        <label for="email" class="criar_conta_email">E-mail:</label>
+        <br>
+        <input class="criar_conta_box_email" type="text" id="E-mail"/>
+        <br><br>
+        <label for="pw" class="criar_conta_password">Password:</label>
+        <br>
+        <input class="criar_conta_box_password" type="password" id="passw"/>
+        <br><br><br><br>
+        <button type="submit" class="criar_conta_botao"><a href="#">Create</a></button>
+      </form>
+    </div>
 
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>

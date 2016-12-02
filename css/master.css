@@ -1,0 +1,39 @@
+.criar_conta_conteudo{
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.criar_conta_titulo{
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.criar_conta_username{
+  float: left;
+
+}
+
+.criar_conta_box_name{
+  width: 100%;
+}
+
+.criar_conta_email{
+  float: left;
+}
+
+.criar_conta_box_email{
+  width: 100%;
+}
+
+.criar_conta_password{
+float: left;
+}
+
+.criar_conta_box_password{
+  width: 100%;
+}
+
+.criar_conta_botao{
+
+}
