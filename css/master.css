@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .criar_conta_conteudo{
   text-align: center;
   margin-top: 80px;
@@ -11,7 +12,6 @@
 
 .criar_conta_username{
   float: left;
-
 }
 
 .criar_conta_box_name{
@@ -36,4 +36,21 @@ float: left;
 
 .criar_conta_botao{
 
+=======
+.index_level_strike_titulo{
+  font-size: 70px;
+}
+
+.alinhar_index{
+  margin-top: 60px;
+}
+
+.index_welcome{
+  font-size: 30px;
+}
+
+.logo_index{
+  border-radius: 70%;
+  padding-bottom: 20px;
+>>>>>>> origin/master
 }
