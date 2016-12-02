@@ -1,3 +1,16 @@
-.central{
-  margin: 0 auto;
+.index_level_strike_titulo{
+  font-size: 70px;
+}
+
+.alinhar_index{
+  margin-top: 60px;
+}
+
+.index_welcome{
+  font-size: 30px;
+}
+
+.logo_index{
+  border-radius: 70%;
+  padding-bottom: 20px;
 }
