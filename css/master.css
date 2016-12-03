@@ -78,6 +78,10 @@
   float:left;
 }
 
+.login_titulo{
+  font-size: 40px;
+}
+
 .login_passwordbox{
   width: 100%;
   padding: 10px 10px;
