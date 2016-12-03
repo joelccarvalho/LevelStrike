@@ -1,38 +1,36 @@
-.criar_conta_conteudo{
+// LOGIN
+.login_container{
   text-align: center;
-  width: 40%;
+  width: 40%
 }
 
-.criar_conta_titulo{
-  padding-top: 50px;
-  font-size: 50px;
-  padding-bottom: 20px;
+.login_name{
+  float:left;
 }
 
-.criar_conta_username{
-  float: left;
-}
-
-.criar_conta_box_name{
+.login_namebox{
   width: 100%;
+  padding: 10px 10px;
+  margin: 2% 0;
+  box-sizing: border-box;
+  border: 2px solid #999966;
+  border-radius: 4px;
 }
 
-.criar_conta_email{
-  float: left;
+.login_password{
+  float:left;
 }
 
-.criar_conta_box_email{
+.login_passwordbox{
   width: 100%;
+  padding: 10px 10px;
+  margin: 2% 0;
+  box-sizing: border-box;
+  border: 2px solid #999966;
+  border-radius: 4px;
 }
 
-.criar_conta_password{
-  float: left;
-}
-
-.criar_conta_box_password{
-  width: 100%;
-}
-
+<<<<<<< HEAD
 .criar_conta_botao{
 
 }
@@ -60,4 +58,15 @@
   .criar_conta_conteudo{
     width: 100%;
   }
+=======
+.login_botao{
+
+}
+
+@media (max-width: 768px){
+  //login media query
+  .login_container{
+    text-align: center;
+    width: 60%
+>>>>>>> origin/master
 }
