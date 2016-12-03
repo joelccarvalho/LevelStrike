@@ -1,4 +1,3 @@
-// LOGIN
 .login_container{
   text-align: center;
   width: 40%
@@ -30,7 +29,6 @@
   border-radius: 4px;
 }
 
-<<<<<<< HEAD
 .criar_conta_botao{
 
 }
@@ -58,15 +56,38 @@
   .criar_conta_conteudo{
     width: 100%;
   }
-=======
-.login_botao{
-
 }
 
 @media (max-width: 768px){
-  //login media query
   .login_container{
     text-align: center;
     width: 60%
->>>>>>> origin/master
+}
+/*List group do grupoXList*/
+.list-group-item.active{
+  margin-top: 10px;
+}
+/*List group titulo*/
+.panel-heading {
+  font-size: 25px;
+  margin-top: 11px;
+  border-bottom: 3px solid rgb(255, 0, 0);
+  font-weight: bold;
+}
+
+/*List group alinhar nome*/
+.groupXList_alinhar_nome_master{
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/*Tamanho dos botões na main*/
+.images_main_tasks, .images_main_add, .images_main_group, .images_main_addgroup{
+  width: 150px;
+  height: 150px;
+}
+
+/*Posição dos botões na main*/
+.main_botoes{
+  margin-top: 50px;
 }
