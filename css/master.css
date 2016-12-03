@@ -1,3 +1,61 @@
+/*INICIO CSS PAG.CRIAR CONTA*/
+.criar_conta_conteudo{
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+.criar_conta_titulo{
+  padding-top: 40px;
+  font-size: 50px;
+}
+
+.criar_conta_username{
+  float: left;
+}
+
+.criar_conta_box_username{
+  width: 100%;
+  margin: 2% 0;
+  box-sizing: border-box;
+  border: 2px solid #999966;
+  border-radius: 4px;
+}
+
+.criar_conta_email{
+  float: left;
+}
+
+.criar_conta_box_email{
+  width: 100%;
+  margin: 2% 0;
+  box-sizing: border-box;
+  border: 2px solid #999966;
+  border-radius: 4px;
+}
+
+.criar_conta_password{
+ float: left;
+}
+
+.criar_conta_box_password{
+  width: 100%;
+  margin: 2% 0;
+  box-sizing: border-box;
+  border: 2px solid #999966;
+  border-radius: 4px;
+}
+
+.criar_conta_botao{
+
+}
+/*FIM CSS PAG.CRIAR CONTA*/
+/*INICIO CSS PAG.LISTA DE TAREFAS*/
+.images_tasks_add{
+  width: 100px;
+  height: 100px;
+}
+/*FIM CSS PAG.LISTA DE TAREFAS*/
 .login_container{
   text-align: center;
   width: 40%
@@ -29,10 +87,6 @@
   border-radius: 4px;
 }
 
-.criar_conta_botao{
-
-}
-
 /*Index titulo*/
 .index_level_strike_titulo{
   font-size: 70px;
@@ -53,9 +107,10 @@
 
 
 @media screen (max-width: 768px) {
-  .criar_conta_conteudo{
+.criar_conta_conteudo{
     width: 100%;
   }
+
 }
 
 @media (max-width: 768px){
