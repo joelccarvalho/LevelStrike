@@ -37,10 +37,7 @@
 
 }
 
-<<<<<<< HEAD
 /*Index titulo*/
-=======
->>>>>>> origin/master
 .index_level_strike_titulo{
   font-size: 70px;
 }
@@ -56,16 +53,11 @@
 .logo_index{
   border-radius: 70%;
   padding-bottom: 20px;
-<<<<<<< HEAD
-=======
 }
 
-
-}
 
 @media screen (max-width: 768px) {
   .criar_conta_conteudo{
     width: 100%;
   }
->>>>>>> origin/master
 }
