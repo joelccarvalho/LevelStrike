@@ -61,6 +61,7 @@
   width: 40%
 }
 
+/*Pagina LOGIN*/
 .login_name{
   float:left;
 }
@@ -90,6 +91,87 @@
   border: 2px solid #999966;
   border-radius: 4px;
 }
+.login_create{
+  /*cs de botao a definir*/
+}
+/*Fim da pagina login*/
+
+/*Pagina taskdetails*/
+.Details_group{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.Details_title{
+  text-align: center;
+}
+
+.Details_disc{
+  font-size: 16px;
+  /*texto da descricao, definir depois*/
+}
+
+
+.Details_date
+{
+  text-align: center;
+font-size: 30px;
+}
+
+.Details_bottom{
+  position: fixed;
+  bottom: 0px;
+  background-color: gray;
+  width: 100%;
+  font-size: 30px;
+  padding-top: 15px;
+  text-align: center;
+}
+/* Fim da pagina taks details*/
+
+/*Inicio da pagina joinGroup*/
+.joingroup_container{
+  text-align: center;
+  width: 80%
+}
+
+.joingroup_name{
+  float:left;
+  font-size:20px;
+}
+
+.joingroup_namebox{
+  width: 100%;
+  padding: 10px 10px;
+  margin: 2% 0;
+  box-sizing: border-box;
+  border: 2px solid #999966;
+  border-radius: 4px;
+}
+
+.joingroup_password{
+  float:left;
+  font-size:20px;
+}
+
+.joingroup_passwordbox{
+  width: 100%;
+  padding: 10px 10px;
+  margin: 2% 0;
+  box-sizing: border-box;
+  border: 2px solid #999966;
+  border-radius: 4px;
+}
+
+.joingroup_bottom{
+  width: 100%;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+/* Fim da pagina join groups */
 
 /*Index titulo*/
 .index_level_strike_titulo{
