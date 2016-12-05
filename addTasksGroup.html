@@ -19,7 +19,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="#">
-              <p>Group List</p></a>
+              <p>New task group</p></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -34,19 +34,24 @@
         <br><br>
       </div>
 
-      <div class="list-group">
-        <a href="grupoXList.html"><div class="panel-heading">Group: Home <div class="groupXList_alinhar_nome_master">Master: Pedro</div></a></div>
-        <!--Novo grupo-->
-        <div class="panel-heading">Group: Office <div class="groupXList_alinhar_nome_master">Master: Miguel</div></div>
-        <!--Novo grupo-->
-        <div class="panel-heading">Group: Friends <div class="groupXList_alinhar_nome_master">Master: Rui</div></div>
-      </div>
-      <figure class="col-xs-12">
-        <a href="addTasksGroup.html"><img class="images_tasks_add center-block" src="./images/add.png" alt="add-logo" />
-        <figcaption><p align="center">Add new group<p></figcaption></a>
-      </figure>
+      <form class="form_addTasksGroup container" >
+        <br><br>
+        <label for="membro" class="titulos_addTasks">Members:</label>
+
+        <br><label for="titulo" class="titulos_addTasks">Title:</label>
+        <input class="addTasks_titulo" type="text" id="titulo" placeholder="Please enter a title..."/>
+
+        <label for="assunto" class="titulos_addTasks">Subject:</label>
+        <textarea class="addTasks_assunto" name="subject" placeholder="Please enter a subject..."></textarea>
 
 
+        <br><br><br>
+        <div align="center" class="col-xs-12">
+          <button type="submit" class="addTasks_confirm"><a href="main.html">Confirm</a></button>
+          <button type="reset" class="addTasks_cancel"><a href="#">Cancel</a></button>
+        </div>
+
+      </form>
 
     <script src="./js/jquery-3.1.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>

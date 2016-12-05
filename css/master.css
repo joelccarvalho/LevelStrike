@@ -223,12 +223,30 @@ font-size: 30px;
 }
 
 /*Tamanho dos botões na main*/
-.images_main_tasks, .images_main_add, .images_main_group, .images_main_addgroup{
-  width: 150px;
-  height: 150px;
+
+@media (max-width: 1600px){
+  .images_main_tasks, .images_main_add, .images_main_group, .images_main_addgroup{
+    width: 150px;
+    height: 150px;
+  }
 }
 
 /*Posição dos botões na main*/
 .main_botoes{
   margin-top: 50px;
+}
+
+/*Form da add tasks*/
+.addTasks_titulo, .addTasks_assunto, .addTasks_validade{
+  width: 100%;
+  margin: 2% 0;
+  box-sizing: border-box;
+  border: 2px solid #999966;
+  border-radius: 4px;
+}
+
+/*Titulos add task*/
+.titulos_addTasks{
+  font-weight: bold;
+  font-size: 20px;
 }
