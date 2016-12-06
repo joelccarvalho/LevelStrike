@@ -110,6 +110,7 @@
 .Details_disc{
   font-size: 16px;
   /*texto da descricao, definir depois*/
+  text-align: justify;
 }
 
 
@@ -248,7 +249,7 @@ font-size: 30px;
 }
 .qrcode_title{
   font-size:30px;
-  
+
 }
 /*Fim da pagina QR Code*/
 
@@ -266,8 +267,7 @@ font-size: 30px;
 }
 /*Formatar logo index*/
 .logo_index{
-  border-radius: 70%;
-  padding-bottom: 20px;
+
 }
 
 
@@ -302,7 +302,6 @@ font-size: 30px;
 }
 
 /*Tamanho dos botões na main*/
-
 @media (max-width: 1600px){
   .images_main_tasks, .images_main_add, .images_main_group, .images_main_addgroup{
     width: 150px;
@@ -328,4 +327,16 @@ font-size: 30px;
 .titulos_addTasks{
   font-weight: bold;
   font-size: 20px;
+}
+
+/*Imagem addTaskGroup*/
+.add_tasks_group{
+  width: 100px;
+  height: 100px;
+}
+
+/*NavBar*/
+.navbar_levelStrike{
+  float: left;
+  margin-left: 10px;
 }
