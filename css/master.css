@@ -1,3 +1,7 @@
+.cor_fundo{
+  background-color: #A2E3E9;
+}
+
 /*INICIO CSS PAG.CRIAR CONTA*/
 .criar_conta_conteudo{
   text-align: center;
@@ -7,7 +11,7 @@
 
 .criar_conta_titulo{
   padding-top: 40px;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .criar_conta_username{
@@ -66,6 +70,33 @@
   float:left;
 }
 
+/*Log in botão*/
+.btn-info:hover {
+  color: #fff;
+  background-color: #116564;
+  border-color: #116564;
+}
+
+/*Tirar sublinhado dos links*/
+a:hover{
+  text-decoration: none;
+}
+
+/*Por cor nos links*/
+p a{
+  color: #0DA8A6;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #0DA8A6;
+  border-color: #0DA8A6;
+}
+
+.input-group-addon, .form-control{
+  border: 2px solid #0DA8A6;
+}
+
 .login_namebox{
   width: 100%;
   padding: 10px 10px;
@@ -81,6 +112,9 @@
 
 .login_titulo{
   font-size: 40px;
+  font-family: Bariol;
+  font-weight: bold;
+  color: #116564;
 }
 
 .login_passwordbox{
@@ -92,7 +126,12 @@
   border-radius: 4px;
 }
 .login_create{
-  /*cs de botao a definir*/
+  color: #116564;
+  font-family: Bariol;
+}
+
+.form-control{
+  font-family: Bariol;
 }
 /*Fim da pagina login*/
 
