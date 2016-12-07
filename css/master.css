@@ -1,17 +1,23 @@
 .cor_fundo{
   background-color: #A2E3E9;
 }
+.cor_fundo_escuro{
+  background-color: #6BFF9C;
+}
 
 /*INICIO CSS PAG.CRIAR CONTA*/
 .criar_conta_conteudo{
   text-align: center;
-  margin-top: 80px;
-  margin-left: 20px;
+  margin-top: 60px;
+  width:40%
 }
 
 .criar_conta_titulo{
   padding-top: 40px;
   font-size: 40px;
+  font-family: Bariol;
+  font-weight: bold;
+  color: #116564;
 }
 
 .criar_conta_username{
@@ -62,7 +68,8 @@
 /*FIM CSS PAG.LISTA DE TAREFAS*/
 .login_container{
   text-align: center;
-  width: 40%
+  margin-top: 60px;
+  width:40%;
 }
 
 /*Pagina LOGIN*/
@@ -111,6 +118,7 @@ p a{
 }
 
 .login_titulo{
+  padding-top: 40px;
   font-size: 40px;
   font-family: Bariol;
   font-weight: bold;
@@ -132,6 +140,31 @@ p a{
 
 .form-control{
   font-family: Bariol;
+}
+.form-group{
+  float: left;
+}
+
+.form-group input[type="checkbox"] {
+    display: none;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span {
+    width: 15px;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span:first-child {
+    display: none;
+}
+.form-group input[type="checkbox"] + .btn-group > label span:last-child {
+    display: inline-block;
+}
+
+.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+}
+.form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+    display: none;
 }
 /*Fim da pagina login*/
 
