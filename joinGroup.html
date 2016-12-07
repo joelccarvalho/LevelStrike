@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Join group</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" media="screen" title="no title">
+    <link rel="stylesheet" href="./css/master.css" media="screen" title="no title">
+  </head>
+  <body>
+  <nav class=" navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="./main.html">
+        <p>Join group</p></a>
+      </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="main.html">Level Strike</a></li>
+            <li><a href="addTasks.html">Add tasks</a></li>
+            <li><a href="listTasks.html">My tasks</a></li>
+            <li><a href="groupList.html">My groups</a></li>
+            <li  class="active"><a href="joinGroup.html">Add new group</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br><br><br><br><br>
+    <div class="container joingroup_container">
+    <label for="groupName" class="joingroup_name">Group name: </label><br><br>
+    <input type ="text" id="groupname" class="joingroup_namebox" placeholder="Please enter the group name..."> </input><br><br><br>
+    <br><label for="groupPassword" class="joingroup_password">Group password: </label><br><br>
+    <input type ="password" id="groupPassword" placeholder="Please enter the group password..." class="joingroup_passwordbox"> </input><br>
+    <br><br></form>
+    <div class="joingroup_bottom">
+    <div  class="col-xs-6"><input type="submit" classe="joingroup_botao" name="loginbutton" value="Join group"></div>
+    <div  class="col-xs-6"><input type="submit" classe="joingroup_qrcode" name="loginbutton" value="QRcode"></div>
+    </div>
+  <script src="./js/jquery-3.1.1.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

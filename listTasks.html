@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="./css/master.css" media="screen" />
   </head>
   <body>
-
     <nav class=" navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -23,19 +22,19 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="main.html">Level Strike</a></li>
-            <li><a href="#">My tasks</a></li>
-            <li><a href="#">My groups</a></li>
-            <li><a href="#">Add new group</a></li>
+            <li><a href="addTasks.html">Add tasks</a></li>
+            <li class="active"><a href="listTasks.html">My tasks</a></li>
+            <li><a href="groupList.html">My groups</a></li>
+            <li><a href="joinGroup.html">Add new group</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
     <br><br>
   </div>
-
   <div class="list-group">
     <div class="panel-heading">Tasks</div>
-    <a href="#" class="list-group-item">
+    <a href="taskDetails.html" class="list-group-item">
       <h4 class="list-group-item-heading">Fazer as camas</h4>
       <p class="list-group-item-text"><span class="glyphicon glyphicon-time"></span> 29-10-16</p>
     </a>
@@ -72,14 +71,15 @@
       <p class="list-group-item-text"><span class="glyphicon glyphicon-time"></span> 1-11-16</p>
     </a>
   </div>
+
   <div>
     <figure class="col-xs-12">
-      <img class="images_tasks_add center-block" src="./images/add.png" alt="add-logo" />
-      <figcaption><p align="center">Add tasks<p></figcaption>
+      <a href="addTasks.html"><img class="images_tasks_add center-block" src="./images/add.png" alt="add-logo" />
+      <figcaption><p align="center">Add tasks<p></figcaption></a>
     </figure>
   </div>
+
   <script src="./js/jquery-3.1.1.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
-
   </body>
 </html>

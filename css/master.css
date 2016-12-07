@@ -1,13 +1,23 @@
+.cor_fundo{
+  background-color: #A2E3E9;
+}
+.cor_fundo_escuro{
+  background-color: #6BFF9C;
+}
+
 /*INICIO CSS PAG.CRIAR CONTA*/
 .criar_conta_conteudo{
   text-align: center;
-  margin-top: 80px;
-  margin-left: 20px;
+  margin-top: 60px;
+  width:40%
 }
 
 .criar_conta_titulo{
   padding-top: 40px;
-  font-size: 50px;
+  font-size: 40px;
+  font-family: Bariol;
+  font-weight: bold;
+  color: #116564;
 }
 
 .criar_conta_username{
@@ -58,11 +68,40 @@
 /*FIM CSS PAG.LISTA DE TAREFAS*/
 .login_container{
   text-align: center;
-  width: 40%
+  margin-top: 60px;
+  width:40%;
 }
 
+/*Pagina LOGIN*/
 .login_name{
   float:left;
+}
+
+/*Log in botão*/
+.btn-info:hover {
+  color: #fff;
+  background-color: #116564;
+  border-color: #116564;
+}
+
+/*Tirar sublinhado dos links*/
+a:hover{
+  text-decoration: none;
+}
+
+/*Por cor nos links*/
+p a{
+  color: #0DA8A6;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: #0DA8A6;
+  border-color: #0DA8A6;
+}
+
+.input-group-addon, .form-control{
+  border: 2px solid #0DA8A6;
 }
 
 .login_namebox{
@@ -79,7 +118,11 @@
 }
 
 .login_titulo{
+  padding-top: 40px;
   font-size: 40px;
+  font-family: Bariol;
+  font-weight: bold;
+  color: #116564;
 }
 
 .login_passwordbox{
@@ -90,6 +133,197 @@
   border: 2px solid #999966;
   border-radius: 4px;
 }
+.login_create{
+  color: #116564;
+  font-family: Bariol;
+}
+
+.form-control{
+  font-family: Bariol;
+}
+.form-group{
+  float: left;
+}
+
+.form-group input[type="checkbox"] {
+    display: none;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span {
+    width: 15px;
+}
+
+.form-group input[type="checkbox"] + .btn-group > label span:first-child {
+    display: none;
+}
+.form-group input[type="checkbox"] + .btn-group > label span:last-child {
+    display: inline-block;
+}
+
+.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+    display: inline-block;
+}
+.form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+    display: none;
+}
+/*Fim da pagina login*/
+
+
+/*Pagina taskdetails*/
+.Details_group{
+  width: 60%;
+  margin-left: 20%;
+}
+
+.Details_title{
+  text-align: center;
+}
+
+.Details_disc{
+  font-size: 16px;
+  /*texto da descricao, definir depois*/
+  text-align: justify;
+}
+
+
+.Details_date
+{
+  text-align: center;
+font-size: 30px;
+}
+
+.Details_bottom{
+  position: fixed;
+  bottom: 0px;
+  background-color: gray;
+  width: 100%;
+  font-size: 30px;
+  padding-top: 15px;
+  text-align: center;
+}
+/* Fim da pagina taks details*/
+
+/*Inicio da pagina joinGroup*/
+.joingroup_container{
+  text-align: center;
+  width: 80%
+}
+
+.joingroup_name{
+  float:left;
+  font-size:20px;
+}
+
+.joingroup_namebox{
+  width: 100%;
+  padding: 10px 10px;
+  margin: 2% 0;
+  box-sizing: border-box;
+  border: 2px solid #999966;
+  border-radius: 4px;
+}
+
+.joingroup_password{
+  float:left;
+  font-size:20px;
+}
+
+.joingroup_passwordbox{
+  width: 100%;
+  padding: 10px 10px;
+  margin: 2% 0;
+  box-sizing: border-box;
+  border: 2px solid #999966;
+  border-radius: 4px;
+}
+
+.joingroup_bottom{
+  width: 100%;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+/* Fim da pagina join groups */
+
+/*Inicio da pagina create group*/
+.creategroup_container{
+  text-align: center;
+  width: 80%
+}
+
+.creategroup_name{
+  float:left;
+  font-size:20px;
+}
+
+.creategroup_namebox{
+  width: 100%;
+  padding: 10px 10px;
+  margin: 2% 0;
+  box-sizing: border-box;
+  border: 2px solid #999966;
+  border-radius: 4px;
+}
+
+.creategroup_password{
+  float:left;
+  font-size:20px;
+}
+
+.creategroup_passwordbox{
+  width: 100%;
+  padding: 10px 10px;
+  margin: 2% 0;
+  box-sizing: border-box;
+  border: 2px solid #999966;
+  border-radius: 4px;
+}
+
+.creategroup_botoes{
+  width: 100%;
+  font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+/*Fim da pagina create group*/
+
+
+/*Inicio da pagina groupInfo*/
+.groupinfo_container{
+  width: 80%;
+}
+.groupinfo_memberstitle{
+  font-size: 20px;
+}
+.groupinfo_qrcode{
+  font-size: 20px;
+}
+.groupinfo_table{
+  font-size: 14px;
+}
+.groupinfo_botoes{
+  width: 100%;
+  font-size: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+/*Fim da pagina groupInfo*/
+
+/*Inicio da pagina QR Code*/
+.qrcode_container{
+  width: 80%;
+  text-align: center;
+}
+.qrcode_title{
+  font-size:30px;
+
+}
+/*Fim da pagina QR Code*/
 
 /*Index titulo*/
 .index_level_strike_titulo{
@@ -105,8 +339,7 @@
 }
 /*Formatar logo index*/
 .logo_index{
-  border-radius: 70%;
-  padding-bottom: 20px;
+
 }
 
 
@@ -141,12 +374,41 @@
 }
 
 /*Tamanho dos botões na main*/
-.images_main_tasks, .images_main_add, .images_main_group, .images_main_addgroup{
-  width: 150px;
-  height: 150px;
+@media (max-width: 1600px){
+  .images_main_tasks, .images_main_add, .images_main_group, .images_main_addgroup{
+    width: 150px;
+    height: 150px;
+  }
 }
 
 /*Posição dos botões na main*/
 .main_botoes{
   margin-top: 50px;
+}
+
+/*Form da add tasks*/
+.addTasks_titulo, .addTasks_assunto, .addTasks_validade{
+  width: 100%;
+  margin: 2% 0;
+  box-sizing: border-box;
+  border: 2px solid #999966;
+  border-radius: 4px;
+}
+
+/*Titulos add task*/
+.titulos_addTasks{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*Imagem addTaskGroup*/
+.add_tasks_group{
+  width: 100px;
+  height: 100px;
+}
+
+/*NavBar*/
+.navbar_levelStrike{
+  float: left;
+  margin-left: 10px;
 }

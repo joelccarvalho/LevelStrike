@@ -6,23 +6,39 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/master.css" media="screen" title="no title">
   </head>
-  <body>
-    <center><p class="criar_conta_titulo">Criar Conta</p></center>
+  <body class="cor_fundo_escuro">
+
+    <center><p class="criar_conta_titulo">Create account</p></center>
     <div class="container criar_conta_conteudo">
       <form>
-        <label for="username" class="criar_conta_username">Username:</label>
-        <br>
-        <input class="criar_conta_box_username" type="text" id="nome" placeholder="Please enter your username..."/>
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+          <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+        </div>
+
         <br><br>
-        <label for="email" class="criar_conta_email">E-mail:</label>
-        <br>
-        <input class="criar_conta_box_email" type="text" id="E-mail" placeholder="Please enter your e-mail..."/>
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-envelope"></span></span>
+          <input type="text" class="form-control" placeholder="E-mail" aria-describedby="basic-addon1">
+        </div>
+
         <br><br>
-        <label for="pw" class="criar_conta_password">Password:</label>
-        <br>
-        <input class="criar_conta_box_password" type="password" id="passw" placeholder="Please enter your password..."/>
-        <br><br><br><br>
-        <button type="submit" class="criar_conta_botao"><a href="#">Create</a></button>
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
+          <input type="Password" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+        </div>
+
+        <br><br>
+        <div class="input-group">
+          <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
+          <input type="Password" class="form-control" placeholder="Repeat password" aria-describedby="basic-addon1">
+        </div>
+
+        <br><br><br>
+        <a href="main.html"><button type="button" class="btn btn-info">
+              <span class="glyphicon glyphicon-ok-sign"></span> Create
+        </button></a>
+
       </form>
     </div>
 
