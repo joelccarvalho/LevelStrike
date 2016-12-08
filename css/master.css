@@ -1,8 +1,14 @@
-.cor_fundo{
+.cor_fundo_login{
   background-color: #A2E3E9;
+  font-family: Bariol;
 }
-.cor_fundo_escuro{
+.cor_fundo_criarConta{
   background-color: #6BFF9C;
+  font-family: Bariol;
+}
+.cor_fundo_app{
+  background-color: #A2E3E9;
+  font-family: Bariol;
 }
 
 /*INICIO CSS PAG.CRIAR CONTA*/
@@ -15,7 +21,6 @@
 .criar_conta_titulo{
   padding-top: 40px;
   font-size: 40px;
-  font-family: Bariol;
   font-weight: bold;
   color: #116564;
 }
@@ -120,7 +125,6 @@ p a{
 .login_titulo{
   padding-top: 40px;
   font-size: 40px;
-  font-family: Bariol;
   font-weight: bold;
   color: #116564;
 }
@@ -135,12 +139,8 @@ p a{
 }
 .login_create{
   color: #116564;
-  font-family: Bariol;
 }
 
-.form-control{
-  font-family: Bariol;
-}
 .form-group{
   float: left;
 }
@@ -343,11 +343,10 @@ font-size: 30px;
 }
 
 
-@media screen (max-width: 768px) {
+@media (max-width: 768px) {
 .criar_conta_conteudo{
-    width: 100%;
+    width: 60%;
   }
-
 }
 
 @media (max-width: 768px){
@@ -363,8 +362,9 @@ font-size: 30px;
 .panel-heading {
   font-size: 25px;
   margin-top: 11px;
-  border-bottom: 3px solid rgb(255, 0, 0);
+  border-bottom: 3px solid #116564;
   font-weight: bold;
+  color: white;
 }
 
 /*List group alinhar nome*/
@@ -376,14 +376,21 @@ font-size: 30px;
 /*Tamanho dos botões na main*/
 @media (max-width: 1600px){
   .images_main_tasks, .images_main_add, .images_main_group, .images_main_addgroup{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
   }
 }
 
 /*Posição dos botões na main*/
 .main_botoes{
-  margin-top: 50px;
+  margin-top: 75px;
+}
+
+/*Estilo dos botões na main*/
+.main_titulos_menu{
+  font-size: 18px;
+  font-weight: bold;
+  color: #116564;
 }
 
 /*Form da add tasks*/
@@ -411,4 +418,54 @@ font-size: 30px;
 .navbar_levelStrike{
   float: left;
   margin-left: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+.navbar_titulo_pagina{
+  float: left;
+  color: white;
+  font-size: 20px;
+}
+
+.container>.navbar-header {
+  background-color: #116564;
+}
+
+.navbar-default .navbar-toggle  {
+  border-color: #A2E3E9;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #A2E3E9;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: white;
+  background-color: #116564;
+}
+
+/*Active*/
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: white;
+  background-color: #35F5B4;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: white;
+  font-weight: bold;
+  background-color: #116564;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: white;
+}
+
+/*List Tasks*/
+a.list-group-item .list-group-item-heading, .list-group-item-text{
+  color: #116564;
 }
