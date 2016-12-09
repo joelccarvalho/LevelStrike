@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/master.css" media="screen" />
 
   </head>
-  <body>
+  <body class="cor_fundo_app">
 
     <nav class=" navbar navbar-default navbar-fixed-top">
       <div class="container">
@@ -20,7 +20,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="#">
-          <p>New task</p></a>
+          <p class="titulo_newTask">Add task</p></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -49,8 +49,12 @@
 
       <br><br><br>
       <div align="center" class="col-xs-12">
-        <button type="submit" class="addTasks_confirm"><a href="main.html">Confirm</a></button>
-        <button type="reset" class="addTasks_cancel"><a href="#">Cancel</a></button>
+        <button type="button" class="btn btn-info addTasks_confirm">
+              <span class="glyphicon glyphicon-ok-sign"></span> Confirm
+        </button>
+        <button type="reset" class="btn btn-info addTasks_cancel">
+              <span class="glyphicon glyphicon-remove"></span> Cancel
+        </button>
       </div>
 
     </form>

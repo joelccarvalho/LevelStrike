@@ -7,7 +7,7 @@
     <link href="./css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/master.css" media="screen" />
   </head>
-  <body>
+  <body class="cor_fundo_app">
 
         <nav class=" navbar navbar-default navbar-fixed-top">
           <div class="container">
@@ -19,7 +19,7 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="#">
-              <p>Group List</p></a>
+              <p class="titulo_groupList">Group List</p></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
@@ -34,26 +34,19 @@
         </nav>
         <br><br>
       </div>
-<<<<<<< HEAD
-      <div class="list-group"> 
-        <div class="panel-heading">Group: Home <div class="groupXList_alinhar_nome_master">Master: Pedro</a></div></div>
-=======
 
       <div class="list-group">
-        <a href="grupoXList.html"><div class="panel-heading">Group: Home <div class="groupXList_alinhar_nome_master">Master: Pedro</div></a></div>
->>>>>>> origin/master
         <!--Novo grupo-->
-        <div class="panel-heading">Group: Office <div class="groupXList_alinhar_nome_master">Master: Miguel</div></div>
+        <a href="grupoXList.html" class="groupList_estilo"><div class="panel-heading">Group: Home <div class="groupXList_alinhar_nome_master">Master: Pedro</div></a></div>
         <!--Novo grupo-->
-        <div class="panel-heading">Group: Friends <div class="groupXList_alinhar_nome_master">Master: Rui</div></div>
+        <a href="grupoXList.html" class="groupList_estilo"><div class="panel-heading">Group: Home <div class="groupXList_alinhar_nome_master">Master: Miguel</div></a></div>
+        <!--Novo grupo-->
+        <a href="grupoXList.html" class="groupList_estilo"><div class="panel-heading">Group: Home <div class="groupXList_alinhar_nome_master">Master: João</div></a></div>
       </div>
 
-      <figure class="col-xs-12">
-        <a href="createGroup.html"><img class="images_tasks_add center-block" src="./images/add.png" alt="add-logo" />
-        <figcaption><p align="center">Add new group<p></figcaption></a>
-      </figure>
-
-
+      <a href="createGroup.html"><button type="button" class="btn btn-info center-block">
+            <span class="glyphicon glyphicon-plus"></span> Add new group
+      </button></a>
 
     <script src="./js/jquery-3.1.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>

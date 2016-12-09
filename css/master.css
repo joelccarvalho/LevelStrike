@@ -361,9 +361,19 @@ font-size: 30px;
 /*List group titulo*/
 .panel-heading {
   font-size: 25px;
-  margin-top: 11px;
   border-bottom: 3px solid #116564;
   font-weight: bold;
+}
+
+.panel-heading:hover{
+  background-color: white;
+}
+
+.groupList_estilo{
+  color: #116564;
+}
+
+.titulo_groupList{
   color: white;
 }
 
@@ -371,6 +381,7 @@ font-size: 30px;
 .groupXList_alinhar_nome_master{
   font-size: 18px;
   font-weight: normal;
+  color: #116564;
 }
 
 /*Tamanho dos botões na main*/
@@ -398,7 +409,7 @@ font-size: 30px;
   width: 100%;
   margin: 2% 0;
   box-sizing: border-box;
-  border: 2px solid #999966;
+  border: 2px solid #0DA8A6;
   border-radius: 4px;
 }
 
@@ -406,6 +417,11 @@ font-size: 30px;
 .titulos_addTasks{
   font-weight: bold;
   font-size: 20px;
+  color: white;
+}
+
+.titulo_newTask{
+  color: white;
 }
 
 /*Imagem addTaskGroup*/
