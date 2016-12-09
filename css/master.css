@@ -18,8 +18,13 @@
   color: white;
 }
 
+<<<<<<< HEAD
 a.list-group-item:hover{
   background-color: white;
+=======
+.space_between_bottom{
+  margin-right: 15px;
+>>>>>>> origin/master
 }
 
 /*INICIO CSS PAG.CRIAR CONTA*/
@@ -181,32 +186,42 @@ p a{
 
 
 /*Pagina taskdetails*/
-.Details_group{
-  width: 60%;
-  margin-left: 20%;
+.taskDetails_container{
+  width: 80%;
+
 }
 
-.Details_title{
-  text-align: center;
+.taskDetails_title{
+  padding-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #116564;
 }
 
-.Details_disc{
+.taskDetails_disc{
   font-size: 16px;
   /*texto da descricao, definir depois*/
   text-align: justify;
 }
 
 
-.Details_date
+.taskDetails_date
 {
   text-align: center;
 font-size: 30px;
 }
 
-.Details_bottom{
+.taskDetails_glyph{
+  color: #A2E3E9;
+}
+.taskDetails_glyph:hover{
+  color: #fff;
+}
+
+.taskDetails_bottom{
   position: fixed;
   bottom: 0px;
-  background-color: gray;
+  background-color: #116564;
   width: 100%;
   font-size: 30px;
   padding-top: 15px;
@@ -258,6 +273,7 @@ font-size: 30px;
   text-align: center;
 }
 
+
 /* Fim da pagina join groups */
 
 /*Inicio da pagina create group*/
@@ -265,6 +281,11 @@ font-size: 30px;
   width: 14px;
   height: 14px;
   color: gray;
+}
+.noWhite{
+  padding:0px;
+  margin-top:0px;
+
 }
 .creategroup_container{
   text-align: center;
@@ -374,6 +395,11 @@ font-size: 30px;
   padding-top: 20px;
 }
 
+/*Definir tamanho do master*/
+.groupXList_alinhar_nome_master{
+  font-size: 20px;
+}
+
 .panel-heading-groupList1{
   padding-top: 10px;
   font-size: 25px;
@@ -458,6 +484,7 @@ font-size: 30px;
   margin-left: 10px;
   color: white;
   font-size: 20px;
+  font-family: bariol;
 }
 
 
