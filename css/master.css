@@ -10,6 +10,9 @@
   background-color: #A2E3E9;
   font-family: Bariol;
 }
+.menu-cor{
+  background-color: #116564;
+}
 
 .button_letter_color{
   color: white;
@@ -373,7 +376,8 @@ font-size: 30px;
 @media (max-width: 768px){
   .login_container{
     text-align: center;
-    width: 60%
+    width: 60%;
+  }
 }
 /*List group do grupoXList*/
 .list-group-item.active{
