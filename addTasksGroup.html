@@ -40,13 +40,22 @@
 
     <form class="form_addTasksGroup container" >
       <br><br>
-      <label for="membro" class="titulos_addTasks">Members:</label>
+      <!--Add membros para a realização da tarefa-->
+      <label for="membro" class="titulos_addTasks">Members</label>
+      <select class="selectpicker" name="listMembers">
+        <option>Emanuel Machado</option>
+        <option>Rui Pedro</option>
+        <option>Miguel Augusto</option>
+        <option>António Vilela</option>
+      </select>
 
-      <br><label for="titulo" class="titulos_addTasks">Title:</label>
+      <!--Titulo da tarefa-->
+      <br><label for="titulo" class="titulos_addTasks">Title</label>
       <input class="addTasks_titulo" type="text" id="titulo" placeholder="Please enter a title..."/>
-      <label for="assunto" class="titulos_addTasks">Subject:</label>
+      <!--Assunto da tarefa-->
+      <label for="assunto" class="titulos_addTasks">Subject</label>
       <textarea class="addTasks_assunto" name="subject" placeholder="Please enter a subject..."></textarea>
-
+      <!--Data da tarefa-->
       <label for="example-datetime-local-input" class="titulos_addTasks col-form-label">Validity</label>
       <input class="form-control addTasks_validade" type="date" id="example-datetime-local-input">
 
