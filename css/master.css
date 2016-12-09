@@ -18,6 +18,10 @@
   color: white;
 }
 
+.space_between_bottom{
+  margin-right: 15px;
+}
+
 /*INICIO CSS PAG.CRIAR CONTA*/
 .criar_conta_conteudo{
   text-align: center;
@@ -264,6 +268,7 @@ font-size: 30px;
   text-align: center;
 }
 
+
 /* Fim da pagina join groups */
 
 /*Inicio da pagina create group*/
@@ -389,6 +394,11 @@ font-size: 30px;
 .panel-heading-tasks{
   color: white;
   padding-top: 20px;
+}
+
+/*Definir tamanho do master*/
+.groupXList_alinhar_nome_master{
+  font-size: 20px;
 }
 
 .panel-heading-groupList1{
