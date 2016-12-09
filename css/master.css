@@ -483,22 +483,11 @@ font-size: 30px;
 
 /*NavBar*/
 .navbar_levelStrike{
-  float: left;
-  margin-top: -20px;
-  color: white;
-  font-size: 20px;
-  font-family: bariol;
-}
-
-@media (max-width: 768px){}
-.navbar_levelStrike{
-  float: left;
-  margin-left: 10px;
-  color: white;
-  font-size: 20px;
-  font-family: bariol;
-  margin-top: 0px;
-  }
+ float: left;
+ margin-left: 10px;
+ color: white;
+ font-size: 20px;
+ font-family: bariol;
 }
 
 .container>.navbar-header {
