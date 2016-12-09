@@ -177,9 +177,9 @@ p a{
 
 
 /*Pagina taskdetails*/
-.Details_group{
+.taskDetails_container{
   width: 60%;
-  margin-left: 20%;
+
 }
 
 .Details_title{
@@ -261,6 +261,11 @@ font-size: 30px;
   width: 14px;
   height: 14px;
   color: gray;
+}
+.noWhite{
+  padding:0px;
+  margin-top:20px;
+
 }
 .creategroup_container{
   text-align: center;
@@ -460,6 +465,7 @@ font-size: 30px;
   margin-left: 10px;
   color: white;
   font-size: 20px;
+  font-family: bariol;
 }
 
 .navbar_titulo_pagina{
