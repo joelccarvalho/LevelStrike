@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" media="screen" title="no title">
     <link rel="stylesheet" href="./css/master.css" media="screen" title="no title">
   </head>
-  <body>
+  <body class="cor_fundo_app">
   <nav class=" navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
@@ -17,7 +17,8 @@
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="./main.html">
-        <p>Join group</p></a>
+          <a class="navbar-brand" href="main.html"><img class="navbar_levelStrike" src="./images/logo.png" height="21px"/>  
+        <p class="navbar_titulo_pagina">Join group</p></a>
       </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -31,16 +32,24 @@
       </div>
     </nav>
     <br><br><br><br><br>
+
     <div class="container joingroup_container">
-    <label for="groupName" class="joingroup_name">Group name: </label><br><br>
-    <input type ="text" id="groupname" class="joingroup_namebox" placeholder="Please enter the group name..."> </input><br><br><br>
-    <br><label for="groupPassword" class="joingroup_password">Group password: </label><br><br>
-    <input type ="password" id="groupPassword" placeholder="Please enter the group password..." class="joingroup_passwordbox"> </input><br>
-    <br><br></form>
-    <div class="joingroup_bottom">
-    <div  class="col-xs-6"><input type="submit" classe="joingroup_botao" name="loginbutton" value="Join group"></div>
-    <div  class="col-xs-6"><input type="submit" classe="joingroup_qrcode" name="loginbutton" value="QRcode"></div>
+      <label for="groupName" class="joingroup_name">Group name: </label><br><br>
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
+        <input type="text" class="form-control" placeholder="Please enter the group name..." aria-describedby="basic-addon1">
+      </div>
+      <br>
+      <label for="groupPassword" class="joingroup_password">Group password: </label><br><br>
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
+        <input type="password" class="form-control" placeholder="Please insert the group password..." aria-describedby="basic-addon1">
+      </div></form>
+    <div class="align_joingroup_bottom">
+      <button type="button" class="btn btn-info joingroup_bottom">Joing group</button>
+      <button type="button" class="btn btn-info">QRcode</button>
     </div>
+  </div>
   <script src="./js/jquery-3.1.1.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>
   </body>

@@ -212,6 +212,7 @@ font-size: 30px;
 .joingroup_name{
   float:left;
   font-size:20px;
+  color: #fff;
 }
 
 .joingroup_namebox{
@@ -226,6 +227,7 @@ font-size: 30px;
 .joingroup_password{
   float:left;
   font-size:20px;
+  color: #fff;
 }
 
 .joingroup_passwordbox{
@@ -237,7 +239,7 @@ font-size: 30px;
   border-radius: 4px;
 }
 
-.joingroup_bottom{
+.align_joingroup_bottom{
   width: 100%;
   font-size: 30px;
   padding-top: 15px;
