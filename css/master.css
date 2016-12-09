@@ -188,7 +188,10 @@ p a{
 /*Pagina taskdetails*/
 .taskDetails_container{
   width: 80%;
+}
 
+.data_limite_task{
+  color: red;
 }
 
 .taskDetails_title{
@@ -481,12 +484,22 @@ font-size: 30px;
 /*NavBar*/
 .navbar_levelStrike{
   float: left;
-  margin-left: 10px;
+  margin-top: -20px;
   color: white;
   font-size: 20px;
   font-family: bariol;
 }
 
+@media (max-width: 768px){}
+.navbar_levelStrike{
+  float: left;
+  margin-left: 10px;
+  color: white;
+  font-size: 20px;
+  font-family: bariol;
+  margin-top: 0px;
+  }
+}
 
 .container>.navbar-header {
   background-color: #116564;
@@ -526,6 +539,6 @@ font-size: 30px;
 }
 
 /*List Tasks*/
-a.list-group-item .list-group-item-heading, .list-group-item-text{
+a.list-group-item .list-group-item-heading{
   color: #116564;
 }
