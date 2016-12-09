@@ -16,8 +16,8 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="./main.html">
-        <p>Create group</p></a>
+        <a class="navbar-brand" href="main.html"><img class="navbar_levelStrike" src="./images/logo.png" height="21px"/>
+        <p class="navbar_levelStrike">Create group</p></a>
       </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -32,16 +32,31 @@
     </nav>
     <br><br><br><br>
     <div class="container creategroup_container">
-    <label for="groupName" class="creategroup_name">Group name: </label><br>
-    <input type ="text" id="groupname" class="creategroup_namebox" placeholder="Please enter the group name..."> </input><br>
-    <br><label for="groupPassword" class="creategroup_password">Group password: </label><br>
-    <input type ="password" id="groupPassword" placeholder="Please enter the group password..." class="creategroup_passwordbox"> </input><br>
-    <br><label for="groupPassword2" class="creategroup_password">Repeat password: </label><br><br>
-    <input type ="password" id="groupPassword2" placeholder="Please repeat the group password..." class="creategroup_passwordbox"> </input><br>
-    <br><br></form>
+    <p class="creategroup_title">Create group</p><br><br>
+    <div class="panel-heading"></div>
+    <br><br>
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1"><span><img src=".\images\glyph\group.png" class="glyphicon glyphgroup"></span></span>
+      <input type="text" class="form-control" placeholder="Insert group name" aria-describedby="basic-addon1">
+    </div>
+    <br><br>
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
+      <input type="password" class="form-control" placeholder="Group password" aria-describedby="basic-addon1">
+    </div>
+    <br><br>
+    <div class="input-group">
+      <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
+      <input type="password" class="form-control" placeholder="Repeat group password" aria-describedby="basic-addon1">
+    </div><br>
+    <div class="panel-heading"></div>
     <div class="creategroup_botoes">
-    <div  class="col-xs-6"><input type="submit" name="submitgroup" value="Create"></div>
-    <div  class="col-xs-6"><input type="reset"  name="cancelgroup" value="Cancel"></div>
+      <a href="grupoXList.html"><button type="button" class="btn btn-info">
+            <span class="glyphicon glyphicon-plus"></span> Create
+      </button></a>
+      <a href="main.html"><button type="button" class="btn btn-info">
+            <span class="glyphicon glyphicon-remove"></span> Cancel
+      </button></a>
     </div>
   <script src="./js/jquery-3.1.1.min.js"></script>
   <script src="./js/bootstrap.min.js"></script>

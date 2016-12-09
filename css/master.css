@@ -250,38 +250,23 @@ font-size: 30px;
 /* Fim da pagina join groups */
 
 /*Inicio da pagina create group*/
+.glyphgroup{
+  width: 14px;
+  height: 14px;
+  color: gray;
+}
 .creategroup_container{
   text-align: center;
-  width: 80%
+  width: 60%;
+  font-family: Bariol;
+}
+.creategroup_title{
+  float: left;
+  font-size: 40px;
+  font-family: Bariol;
+  color: #116564;
 }
 
-.creategroup_name{
-  float:left;
-  font-size:20px;
-}
-
-.creategroup_namebox{
-  width: 100%;
-  padding: 10px 10px;
-  margin: 2% 0;
-  box-sizing: border-box;
-  border: 2px solid #999966;
-  border-radius: 4px;
-}
-
-.creategroup_password{
-  float:left;
-  font-size:20px;
-}
-
-.creategroup_passwordbox{
-  width: 100%;
-  padding: 10px 10px;
-  margin: 2% 0;
-  box-sizing: border-box;
-  border: 2px solid #999966;
-  border-radius: 4px;
-}
 
 .creategroup_botoes{
   width: 100%;
@@ -322,9 +307,17 @@ font-size: 30px;
   text-align: center;
 }
 .qrcode_title{
-  font-size:30px;
-
+  font-size: 40px;
+  font-family: Bariol;
+  color: #116564;
 }
+
+.qrcode_img{
+    margin: 10px 10px 10px 10px;
+    border: 5px solid black;
+    border-color: #116564;
+}
+
 /*Fim da pagina QR Code*/
 
 /*Index titulo*/
@@ -346,6 +339,10 @@ font-size: 30px;
 
 
 @media (max-width: 768px) {
+
+.creategroup_container{
+  width: 90%
+}
 .criar_conta_conteudo{
     width: 60%;
   }
