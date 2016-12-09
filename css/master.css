@@ -2,14 +2,12 @@
   background-color: #A2E3E9;
   font-family: Bariol;
 }
-.cor_fundo_criarConta{
-  background-color: #6BFF9C;
-  font-family: Bariol;
-}
+
 .cor_fundo_app{
   background-color: #A2E3E9;
   font-family: Bariol;
 }
+
 .menu-cor{
   background-color: #116564;
 }
@@ -370,21 +368,6 @@ font-size: 30px;
   font-size: 30px;
 }
 
-@media (max-width: 768px) {
-.creategroup_container{
-  width: 90%
-}
-.criar_conta_conteudo{
-    width: 60%;
-  }
-}
-
-@media (max-width: 768px){
-  .login_container{
-    text-align: center;
-    width: 60%;
-  }
-}
 /*List group do grupoXList*/
 .list-group-item.active{
   margin-top: 10px;
@@ -542,4 +525,16 @@ font-size: 30px;
 /*List Tasks*/
 a.list-group-item .list-group-item-heading{
   color: #116564;
+}
+
+@media (max-width: 768px) {
+
+.criar_conta_conteudo{
+  width: 80%;
+}
+
+.login_container{
+  text-align: center;
+  width: 60%;
+  }
 }
