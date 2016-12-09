@@ -3,65 +3,84 @@
   <head>
     <meta charset="utf-8">
     <title>Group info</title>
+
     <link rel="stylesheet" href="./css/bootstrap.min.css" media="screen" title="no title">
     <link rel="stylesheet" href="./css/master.css" media="screen" title="no title">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
   </head>
-  <body>
-  <nav class=" navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="./main.html">
-        <p>Group Info</p></a>
-      </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="main.html">Level Strike</a></li>
-            <li><a href="addTasks.html">Add tasks</a></li>
-            <li><a href="listTasks.html">My tasks</a></li>
-            <li><a href="groupList.html">My groups</a></li>
-            <li><a href="joinGroup.html">Add new group</a></li>
-          </ul>
+  <body class="cor_fundo_app">
+    <nav class=" navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="main.html"><img class="navbar_levelStrike" src="./images/logo.png" height="21px"/>
+          <p class="navbar_levelStrike">Group Info</p></a>
         </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="main.html">Level Strike</a></li>
+              <li><a href="addTasks.html">Add tasks</a></li>
+              <li><a href="listTasks.html">My tasks</a></li>
+              <li><a href="groupList.html">My groups</a></li>
+              <li><a href="joinGroup.html">Add new group</a></li>
+              <li><a href="Login.html">Log out</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br><br><br><br>
+
+      <div class="container groupinfo_container">
+
+        <table class="table table-bordered groupinfo_table" border="1">
+        <thead>
+          <tr>
+            <th class="col-xs-6 groupinfo_memberstitle"><center>Group members</center></th>
+            <th class="col-xs-6"><center><a href="./qrCode.html" class="groupinfo_qrcode">Use QRcode</a></center></th><br>
+          </tr>
+        </thead>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Master</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John</td>
+            <td><span class="glyphicon glyphicon-ok"></span></td>
+          </tr>
+          <tr>
+            <td>Mary</td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+          </tr>
+          <tr>
+            <td>July</td>
+            <td><span class="glyphicon glyphicon-remove"></span></td>
+          </tr>
+        </tbody>
+        </table>
+
+
+        <div class="groupinfo_botoes">
+          <a href="#"><button type="button" class="btn btn-info">
+                <span class="glyphicon glyphicon-log-out"></span> Quit group
+          </button></a>
+
+          <a href="#"><button type="button" class="btn btn-info">
+                <span class="glyphicon glyphicon-remove"></span> Delete group
+          </button></a>
+        </div>
+
       </div>
-    </nav>
-    <br><br><br><br>
-    <div class="container groupinfo_container">
-    <div class="col-xs-6 groupinfo_memberstitle"> All group members</div>
-    <a href="./qrCode"><div class="col-xs-6 groupinfo_qrcode"> Use QRcode</div></a><br>
-    <table class="table table-bordered groupinfo_table" border="1">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Admin</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>John</td>
-        <td>Yes</td>
-      </tr>
-      <tr>
-        <td>Mary</td>
-        <td>No</td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>No</td>
-      </tr>
-    </tbody>
-    </table>
-    <div class="groupinfo_botoes">
-      <div  class="col-xs-6"><input type="submit" class="groupinfo_quit" name="quitgroup" value="Quit group"></div>
-      <div  class="col-xs-6"><input type="submit" class="groupinfo_delete" name="deletegroup" value="Delete group"></div>
-    </div>
-    </div>
-    <script src="./js/jquery-3.1.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+
+      <script src="./js/jquery-3.1.1.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
     </body>
     </html>
