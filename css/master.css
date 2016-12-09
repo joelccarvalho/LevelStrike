@@ -18,6 +18,10 @@
   color: white;
 }
 
+a.list-group-item:hover{
+  background-color: white;
+}
+
 /*INICIO CSS PAG.CRIAR CONTA*/
 .criar_conta_conteudo{
   text-align: center;
@@ -289,14 +293,14 @@ font-size: 30px;
 .groupinfo_container{
   width: 80%;
 }
-.groupinfo_memberstitle{
-  font-size: 20px;
+.groupinfo_memberstitle, .groupinfo_qrcode{
+  font-size: 25px;
+  color: #116564;
 }
-.groupinfo_qrcode{
-  font-size: 20px;
-}
+
 .groupinfo_table{
-  font-size: 14px;
+  font-size: 15px;
+  color: #116564;
 }
 .groupinfo_botoes{
   width: 100%;
@@ -339,14 +343,8 @@ font-size: 30px;
 .index_welcome{
   font-size: 30px;
 }
-/*Formatar logo index*/
-.logo_index{
-
-}
-
 
 @media (max-width: 768px) {
-
 .creategroup_container{
   width: 90%
 }
@@ -462,11 +460,6 @@ font-size: 30px;
   font-size: 20px;
 }
 
-.navbar_titulo_pagina{
-  float: left;
-  color: white;
-  font-size: 20px;
-}
 
 .container>.navbar-header {
   background-color: #116564;
