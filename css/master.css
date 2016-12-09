@@ -178,31 +178,41 @@ p a{
 
 /*Pagina taskdetails*/
 .taskDetails_container{
-  width: 60%;
+  width: 80%;
 
 }
 
-.Details_title{
-  text-align: center;
+.taskDetails_title{
+  padding-top: 40px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #116564;
 }
 
-.Details_disc{
+.taskDetails_disc{
   font-size: 16px;
   /*texto da descricao, definir depois*/
   text-align: justify;
 }
 
 
-.Details_date
+.taskDetails_date
 {
   text-align: center;
 font-size: 30px;
 }
 
-.Details_bottom{
+.taskDetails_glyph{
+  color: #A2E3E9;
+}
+.taskDetails_glyph:hover{
+  color: #fff;
+}
+
+.taskDetails_bottom{
   position: fixed;
   bottom: 0px;
-  background-color: gray;
+  background-color: #116564;
   width: 100%;
   font-size: 30px;
   padding-top: 15px;
@@ -264,7 +274,7 @@ font-size: 30px;
 }
 .noWhite{
   padding:0px;
-  margin-top:20px;
+  margin-top:0px;
 
 }
 .creategroup_container{
