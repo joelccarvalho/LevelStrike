@@ -10,62 +10,66 @@
 
   </head>
   <body class="cor_fundo_app">
-  <nav class=" navbar navbar-default navbar-fixed-top menu-cor">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="main.html"><img class="navbar_levelStrike" src="./images/logo.png" height="21px"/>
-        <p class="navbar_levelStrike">Create group</p></a>
-      </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="main.html">Level Strike</a></li>
-            <li><a href="listTasks.html">Tasks</a></li>
-            <li><a href="addTasks.html.html">Add tasks</a></li>
-            <li><a href="groupList.html">Groups</a></li>
-            <li class="active"><a href="createGroup.html">Add group</a></li>
-            <li><a href="Login.html">Log out</a></li>
-          </ul>
+    <nav class=" navbar navbar-default navbar-fixed-top menu-cor">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="main.html"><img class="navbar_levelStrike" src="./images/logo.png" height="21px"/>
+          <p class="navbar_levelStrike">Create group</p></a>
         </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="main.html">Level Strike</a></li>
+              <li><a href="listTasks.html">Tasks</a></li>
+              <li><a href="addTasks.html.html">Add tasks</a></li>
+              <li><a href="groupList.html">Groups</a></li>
+              <li class="active"><a href="createGroup.html">Add group</a></li>
+              <li><a href="Login.html">Log out</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <br><br><br><br>
+
+      <div class="container creategroup_container ">
+      <p class="creategroup_title">Create group</p><br><br><br>
+      <div class="panel-heading noWhite"></div>
+      <br><br>
+
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><span><img src=".\images\glyph\group.png" class="glyphicon glyphgroup"></span></span>
+        <input type="text" class="form-control" placeholder="Insert group name" aria-describedby="basic-addon1">
       </div>
-    </nav>
-    <br><br><br><br>
-    <div class="container creategroup_container ">
-    <p class="creategroup_title">Create group</p><br><br><br>
-    <div class="panel-heading noWhite"></div>
-    <br><br>
-    <div class="input-group">
-      <span class="input-group-addon" id="basic-addon1"><span><img src=".\images\glyph\group.png" class="glyphicon glyphgroup"></span></span>
-      <input type="text" class="form-control" placeholder="Insert group name" aria-describedby="basic-addon1">
-    </div>
-    <br><br>
-    <div class="input-group">
-      <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
-      <input type="password" class="form-control" placeholder="Group password" aria-describedby="basic-addon1">
-    </div>
-    <br><br>
-    <div class="input-group">
-      <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
-      <input type="password" class="form-control" placeholder="Repeat group password" aria-describedby="basic-addon1">
-    </div><br>
-    <div class="panel-heading noWhite"></div>
-    <div class="creategroup_botoes">
+      <br><br>
 
-      <a href="grupoXList.html"><button type="button" class="btn btn-info">
-            <span class="glyphicon glyphicon-plus"></span> Create
-      </button></a>
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
+        <input type="password" class="form-control" placeholder="Group password" aria-describedby="basic-addon1">
+      </div>
+      <br><br>
 
-      <a href="main.html"><button type="button" class="btn btn-info">
-            <span class="glyphicon glyphicon-remove"></span> Cancel
-      </button></a>
-    </div>
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
+        <input type="password" class="form-control" placeholder="Repeat group password" aria-describedby="basic-addon1">
+      </div><br>
+      <div class="panel-heading noWhite"></div>
+      <div class="creategroup_botoes">
 
-    <script src="./js/jquery-3.1.1.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+        <a href="grupoXList.html"><button type="button" class="btn btn-info">
+              <span class="glyphicon glyphicon-plus"></span> Create
+        </button></a>
+
+        <a href="main.html"><button type="button" class="btn btn-info">
+              <span class="glyphicon glyphicon-remove"></span> Cancel
+        </button></a>
+      </div>
+
+      <script src="./js/jquery-3.1.1.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
   </body>
 </html>
