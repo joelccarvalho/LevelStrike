@@ -11,6 +11,13 @@
   font-family: Bariol;
 }
 
+.button_letter_color{
+  color: white;
+}
+.button_letter_color:hover{
+  color: white;
+}
+
 /*INICIO CSS PAG.CRIAR CONTA*/
 .criar_conta_conteudo{
   text-align: center;
@@ -369,8 +376,14 @@ font-size: 30px;
   padding-top: 20px;
 }
 
+.panel-heading-groupList1{
+  padding-top: 10px;
+  font-size: 25px;
+  border-bottom: 3px solid #116564;
+  font-weight: bold;
+}
+
 .panel-heading-groupList{
-  padding-top: 20px;
   font-size: 25px;
   border-bottom: 3px solid #116564;
   font-weight: bold;
@@ -389,7 +402,7 @@ font-size: 30px;
 }
 
 /*List group alinhar nome*/
-.groupXList_alinhar_nome_master{
+.groupList_alinhar_nome_master{
   font-size: 18px;
   font-weight: normal;
   color: #116564;
