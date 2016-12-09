@@ -364,7 +364,19 @@ font-size: 30px;
   font-weight: bold;
 }
 
-.panel-heading:hover{
+.panel-heading-tasks{
+  color: white;
+  padding-top: 20px;
+}
+
+.panel-heading-groupList{
+  padding-top: 20px;
+  font-size: 25px;
+  border-bottom: 3px solid #116564;
+  font-weight: bold;
+}
+
+.panel-heading-groupList:hover{
   background-color: white;
 }
 
