@@ -438,17 +438,17 @@ font-size: 30px;
   color: #116564;
 }
 
-/*Tamanho dos botões na main*/
-@media (max-width: 1600px){
-  .images_main_tasks, .images_main_add, .images_main_group, .images_main_addgroup{
-    width: 120px;
-    height: 120px;
-  }
+/*Inicio Main*/
+.images_main_tasks, .images_main_add, .images_main_group, .images_main_addgroup{
+  margin-top: 20px;
+  margin-bottom: 0px;
+  width: 100px;
+  height: 100px;
 }
 
 /*Posição dos botões na main*/
 .main_botoes{
-  margin-top: 75px;
+  margin-top: 45px;
 }
 
 /*Estilo dos botões na main*/
@@ -457,6 +457,15 @@ font-size: 30px;
   font-weight: bold;
   color: #116564;
 }
+.main_conjunto{
+  border: 5px solid white;
+}
+
+.main_conjunto:hover{
+  border: 5px solid #116564;
+  background-color: white;
+}
+/*Fim main*/
 
 /*Form da add tasks*/
 .addTasks_titulo, .addTasks_assunto, .addTasks_validade{
