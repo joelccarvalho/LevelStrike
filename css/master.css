@@ -66,7 +66,7 @@ a.list-group-item:hover{
 }
 
 .criar_conta_password{
- float: left;
+  float: left;
 }
 
 .criar_conta_box_password{
@@ -153,6 +153,7 @@ p a{
   border: 2px solid #999966;
   border-radius: 4px;
 }
+
 .login_create{
   color: #116564;
   font-size: 12px;
@@ -210,10 +211,9 @@ p a{
 }
 
 
-.taskDetails_date
-{
+.taskDetails_date{
   text-align: center;
-font-size: 30px;
+  font-size: 30px;
 }
 
 .taskDetails_glyph{
@@ -287,16 +287,19 @@ font-size: 30px;
   height: 14px;
   color: gray;
 }
+
 .noWhite{
   padding:0px;
   margin-top:0px;
 
 }
+
 .creategroup_container{
   text-align: center;
   width: 60%;
   font-family: Bariol;
 }
+
 .creategroup_title{
   float: left;
   font-size: 25px;
@@ -320,12 +323,14 @@ font-size: 30px;
   width: 80%;
   text-align: center;
 }
+
 .groupinfo_memberstitle{
   width: 100%;
   font-size: 25px;
   color: #fff;
   text-align: center;
 }
+
 .groupinfo_tablehead{
   background-color: #116564
 }
@@ -337,10 +342,12 @@ font-size: 30px;
   text-align: center;
   border: 2px solid #116564;
 }
+
 .groupinfo_qrcode{
   margin-right: 5%;
   padding: 10px 50px 10px 50px;
 }
+
 .groupInfo_bottom{
   position: fixed;
   bottom: 0px;
@@ -350,6 +357,7 @@ font-size: 30px;
   padding-top: 10px;
   text-align: center;
 }
+
 .groupinfo_glyph{
   top: 5px;
   padding-right: 30px;
@@ -380,9 +388,9 @@ font-size: 30px;
 }
 
 .qrcode_img{
-    margin: 10px 10px 10px 10px;
-    border: 5px solid black;
-    border-color: #116564;
+  margin: 10px 10px 10px 10px;
+  border: 5px solid black;
+  border-color: #116564;
 }
 
 /*Fim da pagina QR Code*/
@@ -537,6 +545,7 @@ font-size: 30px;
 .descricao_logo{
   margin-top: -2px;
 }
+
 .container>.navbar-header {
   background-color: #116564;
 }
