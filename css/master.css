@@ -155,6 +155,7 @@ p a{
 }
 .login_create{
   color: #116564;
+  font-size: 12px;
 }
 
 .form-group{
@@ -199,6 +200,7 @@ p a{
   font-size: 40px;
   font-weight: bold;
   color: #116564;
+  font-size: 25px;
 }
 
 .taskDetails_disc{
@@ -297,7 +299,7 @@ font-size: 30px;
 }
 .creategroup_title{
   float: left;
-  font-size: 40px;
+  font-size: 25px;
   font-family: Bariol;
   color: #116564;
 }
@@ -329,7 +331,6 @@ font-size: 30px;
 }
 
 .groupinfo_table{
-
   background-color: #fff;
   font-size: 15px;
   color: #116564;
@@ -359,6 +360,10 @@ font-size: 30px;
 }
 .groupInfo_btn:hover{
   color: #fff;
+}
+
+.groupinfo_text{
+  font-size: 18px;
 }
 
 /*Fim da pagina groupInfo*/
@@ -423,6 +428,10 @@ font-size: 30px;
   font-weight: bold;
 }
 
+.panel-heading-groupList1:hover{
+  background-color: white;
+}
+
 .panel-heading-groupList{
   font-size: 25px;
   border-bottom: 3px solid #116564;
@@ -434,6 +443,10 @@ font-size: 30px;
 }
 
 .groupList_estilo{
+  color: #116564;
+}
+
+.groupList_estilo:hover{
   color: #116564;
 }
 
