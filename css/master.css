@@ -316,22 +316,49 @@ font-size: 30px;
 /*Inicio da pagina groupInfo*/
 .groupinfo_container{
   width: 80%;
+  text-align: center;
 }
-.groupinfo_memberstitle, .groupinfo_qrcode{
+.groupinfo_memberstitle{
+  width: 100%;
   font-size: 25px;
-  color: #116564;
+  color: #fff;
+  text-align: center;
+}
+.groupinfo_tablehead{
+  background-color: #116564
 }
 
 .groupinfo_table{
+
+  background-color: #fff;
   font-size: 15px;
   color: #116564;
-}
-.groupinfo_botoes{
-  width: 100%;
-  font-size: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
   text-align: center;
+  border: 2px solid #116564;
+}
+.groupinfo_qrcode{
+  margin-right: 5%;
+  padding: 10px 50px 10px 50px;
+}
+.groupInfo_bottom{
+  position: fixed;
+  bottom: 0px;
+  background-color: #116564;
+  width: 100%;
+  font-size: 30px;
+  padding-top: 10px;
+  text-align: center;
+}
+.groupinfo_glyph{
+  top: 5px;
+  padding-right: 30px;
+}
+
+.groupInfo_btn{
+  color: #A2E3E9;
+}
+.groupInfo_btn:hover{
+  color: #fff;
 }
 
 /*Fim da pagina groupInfo*/
@@ -469,6 +496,7 @@ font-size: 30px;
 .titulo_newTask{
   color: white;
 }
+
 
 /*Imagem addTaskGroup*/
 .add_tasks_group{

@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Group info</title>
+    <title>Level Strike</title>
 
     <link rel="stylesheet" href="./css/bootstrap.min.css" media="screen" title="no title">
     <link rel="stylesheet" href="./css/master.css" media="screen" title="no title">
@@ -20,7 +20,7 @@
             <span class="icon-bar"></span>
           </button>
           <a class="navbar-brand" href="main.html"><img class="navbar_levelStrike" src="./images/logo.png" height="21px"/>
-          <p class="navbar_levelStrike">Group Info</p></a>
+          <p class="navbar_levelStrike">Group info</p></a>
         </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -39,17 +39,16 @@
 
       <div class="container groupinfo_container">
 
-        <table class="table table-bordered groupinfo_table" border="1">
-        <thead>
+        <table class="table table-bordered table-hover groupinfo_table">
+        <thead class="groupinfo_tablehead">
           <tr>
-            <th class="col-xs-6 groupinfo_memberstitle"><center>Group members</center></th>
-            <th class="col-xs-6"><center><a href="./qrCode.html" class="groupinfo_qrcode">Use QRcode</a></center></th><br>
+            <th colspan="2" class="groupinfo_memberstitle">Group members</th>
           </tr>
         </thead>
         <thead>
           <tr>
-            <th>Name</th>
-            <th>Master</th>
+            <th><center>Name</center></th>
+            <th><center>Master</center></th>
           </tr>
         </thead>
         <tbody>
@@ -67,20 +66,15 @@
           </tr>
         </tbody>
         </table>
-
-
-        <div class="groupinfo_botoes">
-          <a href="#"><button type="button" class="btn btn-info space_between_button">
-                <span class="glyphicon glyphicon-log-out"></span> Quit group
-          </button></a>
-
-          <a href="#"><button type="button" class="btn btn-info">
-                <span class="glyphicon glyphicon-remove"></span> Delete group
-          </button></a>
+        <br>
+        <a href="qrCode.html"><button type="button" class="btn btn-info groupinfo_qrcode">Group QRCode</button></a>
         </div>
-
-      </div>
-
+        <div class="groupInfo_bottom">
+          <a href="#" class="groupInfo_btn"><div class="col-xs-6">
+          <p class="groupinfo_text"><span class="glyphicon glyphicon-log-out groupinfo_glyph"></span>Quit group</p></div></a>
+          <a href="#" class="groupInfo_btn"><div class="col-xs-6">
+          <p class="groupinfo_text"><span class="glyphicon glyphicon-remove groupinfo_glyph"></span>Delete group</p></div></a>
+        </div>
       <script src="./js/jquery-3.1.1.min.js"></script>
       <script src="./js/bootstrap.min.js"></script>
     </body>
