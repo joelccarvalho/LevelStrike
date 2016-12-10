@@ -530,8 +530,13 @@ font-size: 30px;
  color: white;
  font-size: 20px;
  font-family: bariol;
+ height: 40px;
+ margin-top: -10px;
 }
 
+.descricao_logo{
+  margin-top: -2px;
+}
 .container>.navbar-header {
   background-color: #116564;
 }
