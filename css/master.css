@@ -348,7 +348,7 @@ p a{
   padding: 10px 50px 10px 50px;
 }
 
-.groupInfo_bottom{
+.group_bottom{
   position: fixed;
   bottom: 0px;
   background-color: #116564;
@@ -401,11 +401,32 @@ p a{
 }
 /*Alinhar index*/
 .alinhar_index{
-  margin-top: 60px;
+  margin-top: 45px;
 }
 /*Alinhar welcome index*/
 .index_welcome{
   font-size: 30px;
+}
+
+@media (max-width: 565px){
+  .logo_index{
+   height: 60%;
+   width: 60%;
+  }
+}
+
+@media (min-width: 565px){
+  .logo_index{
+   height: 40%;
+   width: 40%;
+  }
+}
+
+@media (min-width: 800px){
+  .logo_index{
+   height: 20%;
+   width: 20%;
+  }
 }
 
 /*List group do grupoXList*/
