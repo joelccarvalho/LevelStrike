@@ -159,29 +159,29 @@ p a{
   font-size: 12px;
 }
 
-.form-group{
+.login_remembergroup{
   float: left;
 }
 
-.form-group input[type="checkbox"] {
+.login_remembergroup input[type="checkbox"] {
     display: none;
 }
 
-.form-group input[type="checkbox"] + .btn-group > label span {
+.login_remembergroup input[type="checkbox"] + .btn-group > label span {
     width: 15px;
 }
 
-.form-group input[type="checkbox"] + .btn-group > label span:first-child {
+.login_remembergroup input[type="checkbox"] + .btn-group > label span:first-child {
     display: none;
 }
-.form-group input[type="checkbox"] + .btn-group > label span:last-child {
+.login_remembergroup input[type="checkbox"] + .btn-group > label span:last-child {
     display: inline-block;
 }
 
-.form-group input[type="checkbox"]:checked + .btn-group > label span:first-child {
+.login_remembergroup input[type="checkbox"]:checked + .btn-group > label span:first-child {
     display: inline-block;
 }
-.form-group input[type="checkbox"]:checked + .btn-group > label span:last-child {
+.login_remembergroup input[type="checkbox"]:checked + .btn-group > label span:last-child {
     display: none;
 }
 /*Fim da pagina login*/
