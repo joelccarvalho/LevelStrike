@@ -42,20 +42,20 @@
     <form class="form_addTasks container" >
       <br><br>
       <label for="titulo" class="titulos_addTasks">Title</label>
-      <input class="addTasks_titulo" type="text" id="titulo" placeholder="Please enter a title..."/>
+      <input class="addTasks_titulo" type="text" id="title" placeholder="Please enter a title..."/>
 
       <label for="assunto" class="titulos_addTasks">Subject</label>
-      <textarea class="addTasks_assunto" name="subject" placeholder="Please enter a subject..."></textarea>
+      <textarea class="addTasks_assunto" name="subject" id="subject" placeholder="Please enter a subject..."></textarea>
 
       <label for="example-datetime-local-input" class="titulos_addTasks col-form-label">Validity</label>
-      <input class="form-control addTasks_validade" type="date" id="example-datetime-local-input">
+      <input class="form-control addTasks_validade" type="date" id="date">
 
-      <label for="assunto" class="titulos_addTasks">Points</label>
-      <input class="addTasks_pontos" type="number" name="quantity" min="0" max="100000">
+      <label for="pontos" class="titulos_addTasks">Points</label>
+      <input class="addTasks_pontos" type="number" id="points" name="quantity" min="0" max="100000">
 
       <br><br><br>
       <div align="center" class="col-xs-12">
-        <button type="button" class="btn btn-info addTasks_confirm space_between_button">
+        <button type="button" id="inserir_nova_tarefa" class="btn btn-info addTasks_confirm space_between_button">
             <span class="glyphicon glyphicon-ok-sign"></span> Confirm
         </button>
         <button type="reset" class="btn btn-info addTasks_cancel">
