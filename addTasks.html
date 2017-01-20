@@ -39,7 +39,7 @@
     <br><br>
 
 
-    <form class="form_addTasks container" >
+    <form class="form_addTasks container" id="form_addTasks" name="form_addTasks" action="inserir_tarefas.php" method="post">
       <br><br>
       <label for="titulo" class="titulos_addTasks">Title</label>
       <input class="addTasks_titulo" type="text" id="title" placeholder="Please enter a title..."/>
@@ -65,7 +65,9 @@
 
     </form>
 
-  <script src="./js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
   <script src="./js/bootstrap.min.js"></script>
 
   </body>

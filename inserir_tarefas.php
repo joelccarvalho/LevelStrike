@@ -8,7 +8,7 @@ if($_POST){
   $points = $_POST['pontos'];
   //$password = $_POST['nomeUtilizador'];
 
-  $sql_query = "INSERT INTO tarefas(titulo,descricao,dataLimite,pontos) VALUES('$title','$subject','$date','$points')";
+  $sql_query = "INSERT INTO tarefas(titulo,descricao,dataLimite,pontos,nomeUtilizador,nomeGrupo) VALUES('$title','$subject','$date','$points','joel', 'grupo1')";
   mysqli_query($link, $sql_query);
 
   echo "Your form was submited with success";
