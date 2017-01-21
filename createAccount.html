@@ -11,40 +11,42 @@
   <body class="cor_fundo_app">
     <center><p class="criar_conta_titulo">Create account</p></center>
     <div class="container criar_conta_conteudo">
-      <form>
+      <form name="criar_novo_user" id="criar_novo_user" action="createAccount.php" method="post">
         <div class="input-group">
           <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-user"></span></span>
-          <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+          <input type="text" class="form-control" id="username" name="username" placeholder="Username" aria-describedby="basic-addon1">
         </div>
 
         <br><br>
         <div class="input-group">
           <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-envelope"></span></span>
-          <input type="text" class="form-control" placeholder="E-mail" aria-describedby="basic-addon1">
+          <input type="text" class="form-control" id="email" name="email" placeholder="E-mail" aria-describedby="basic-addon1">
         </div>
 
         <br><br>
         <div class="input-group">
           <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
-          <input type="Password" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+          <input type="Password" class="form-control" id="pass" name="pass" placeholder="Password" aria-describedby="basic-addon1">
         </div>
 
         <br><br>
         <div class="input-group">
           <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-lock"></span></span>
-          <input type="Password" class="form-control" placeholder="Repeat password" aria-describedby="basic-addon1">
+          <input type="Password" class="form-control" id="reppass" name="reppass" placeholder="Repeat password" aria-describedby="basic-addon1">
         </div>
 
         <br><br><br>
-        <a href="main.html"><button type="button" class="btn btn-info">
+        <a href="main.html"><button type="submit" class="btn btn-info">
               <span class="glyphicon glyphicon-ok-sign"></span> Create
         </button></a>
 
       </form>
     </div>
 
-    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-    
+
   </body>
 </html>

@@ -2,13 +2,12 @@
 include_once 'dbconfig.php';
 
 if($_POST){
-  $title = $_POST['titulo'];
-  $subject = $_POST['descricao'];
-  $date = $_POST['dataLimite'];
-  $points = $_POST['pontos'];
-  //$password = $_POST['nomeUtilizador'];
+  $titulo = $_POST['title'];
+  $assunto = $_POST['subject'];
+  $data = $_POST['date'];
+  $pontos = $_POST['points'];
 
-  $sql_query = "INSERT INTO tarefas(titulo,descricao,dataLimite,pontos,nomeUtilizador,nomeGrupo) VALUES('$title','$subject','$date','$points','joel', 'grupo1')";
+  $sql_query = "INSERT INTO tarefas(titulo,descricao,dataLimite,pontos,nomeUtilizador,nomeGrupo) VALUES('$titulo','$assunto','$data','$pontos','joel', 'grupo1')";
   mysqli_query($link, $sql_query);
 
   echo "Your form was submited with success";

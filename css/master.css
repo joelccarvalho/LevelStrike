@@ -520,6 +520,10 @@ p a{
 /*Fim main*/
 
 /*Form da add tasks*/
+.error{
+  color:red;
+}
+
 .addTasks_titulo, .addTasks_assunto, .addTasks_validade, .addTasks_pontos{
   width: 100%;
   margin: 2% 0;
