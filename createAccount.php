@@ -2,7 +2,8 @@
 include_once 'dbconfig.php';
 
 if ($_POST["pass"] != $_POST["reppass"]) {
-  echo "Something went wrong! Please write the same password";
+  echo "<script type='text/javascript'>alert('Something went wrong! Please write the same password!') ;
+  location.href = 'createAccount.html';</script>";
   exit();
 }
 
@@ -14,7 +15,8 @@ if($_POST){
   $sql_query = "INSERT INTO utilizadores(nome, password, email) VALUES('$nome','$pass','$email')";
   mysqli_query($link, $sql_query);
 
-  echo "Your form was submited with success";
+  echo "<script type='text/javascript'>alert('Success!');
+  location.href = 'login.html';</script>";
 }
 
  ?>

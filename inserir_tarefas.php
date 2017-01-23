@@ -9,8 +9,10 @@ if($_POST){
 
   $sql_query = "INSERT INTO tarefas(titulo,descricao,dataLimite,pontos,nomeUtilizador,nomeGrupo) VALUES('$titulo','$assunto','$data','$pontos','joel', 'grupo1')";
   mysqli_query($link, $sql_query);
-
-  echo "Your form was submited with success";
+//header("Location:addTasks.html");
+//  echo "<script type='text/javascript'>alert('Inserted!');</script>";
+  echo "<script type='text/javascript'>alert('blah blah');
+  location.href = 'index.html';</script>";
 }
 
  ?>

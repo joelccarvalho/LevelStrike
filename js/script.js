@@ -26,7 +26,9 @@ $(function(){
 
     rules: {
       username:"required",
-      email:"required",
+      email:{
+      required: true,
+      email: true },
       pass:"required",
       reppass:"required"
   },
