@@ -47,4 +47,20 @@ $(function(){
   });
 });
 
-/*Verificar se o user existe*/
+/*Login*/
+$(function(){
+  $("form[name='login']").validate({
+
+    rules: {
+      username:"required",
+      password:"required"
+  },
+    messages: {
+      username: "Please write a username",
+      password: "Please write a password",
+    },
+    submitHandler: function(form){
+      form.submit();
+    }
+  });
+});
