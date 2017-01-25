@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        var url = "http://172.16.20.74/testels/listar_tarefas.php";
+        $.getJSON(url, function(result) {
+            console.log(result);
+            $.each(result, function(i, field) {
+                var titulo = field.titulo;
+                var descricao = field.descricao;
+                var dataLimite = field.dataLimite;
+                var pontos = field.pontos;
+                $("#listasGrupo").append("<a class='item' href='listTasks.html?titulo=" + titulo + "&descricao=" + descricao + "&duration=" + duration + "&dataLimite=" + dataLimite + "'><span class='item-note'>$" + pontos + "</span><h2>" + titulo + " </h2></a>");
+            });
+        });
+    });
+    </script>
+
     <meta charset="utf-8">
     <title>Level Strike</title>
 
@@ -40,7 +57,7 @@
     <div class="list-group">
       <div class="panel-heading panel-heading-tasks">Tasks</div>
       <!--Nova tarefa-->
-      <a href="taskDetails.html" class="list-group-item cor_fundo_app">
+      <a href="taskDetails.html" id="listasGrupo" class="list-group-item cor_fundo_app">
         <h4 class="list-group-item-heading" id="titulo_tarefa" >Fazer as camas</h4>
         <p class="list-group-item-text" id="data_limite_tarefa"><span class="glyphicon glyphicon-time"></span> 29-10-16</p>
       </a>

@@ -1,6 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $("#insert").click(function() {
+            var title = $("#title").val();
+            var subject = $("#subject").val();
+            var date = $("#date").val();
+            var points = $("#points").val();
+            var dataString = "title=" + title + "&subject=" + subject + "&date=" + date + "&points=" + points + "&insert=";
+            if ($.trim(title).length > 0 & $.trim(subject).length > 0 & $.trim(date).length > 0 & $.trim(points).length > 0) {
+                $.ajax({
+                    type: "POST",
+                    url: "http://192.168.1.3/testels/inserir_tarefas.php",
+                    data: dataString,
+                    crossDomain: true,
+                    cache: false,
+                    beforeSend: function() {
+                        $("#insert").val('Connecting...');
+                    },
+                    success: function(data) {
+                        if (data == "success") {
+                            alert("inserted");
+                            $("#insert").val('submit');
+                        } else if (data == "error") {
+                            alert("error");
+                        }
+                    }
+                });
+            }
+            return false;
+        });
+    });
+    </script>
+
     <meta charset="utf-8">
     <title>Level Strike</title>
 
