@@ -1,10 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <title>Level Strike</title>
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/master.css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-        var url = "http://172.16.20.74/testels/listar_tarefas.php";
+        var url = "http://192.168.1.3/testels/listar_tarefas.php";
         $.getJSON(url, function(result) {
             console.log(result);
             $.each(result, function(i, field) {
@@ -17,14 +24,6 @@
         });
     });
     </script>
-
-    <meta charset="utf-8">
-    <title>Level Strike</title>
-
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/master.css" media="screen" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
   </head>
   <body class="cor_fundo_app">
     <nav class=" navbar navbar-default navbar-fixed-top menu-cor">

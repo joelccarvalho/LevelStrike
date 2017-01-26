@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
+    <title>Level Strike</title>
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/master.css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-        $("#insert").click(function() {
+        $("#inserir_nova_tarefa").click(function() {
             var title = $("#title").val();
             var subject = $("#subject").val();
             var date = $("#date").val();
@@ -18,12 +24,12 @@
                     crossDomain: true,
                     cache: false,
                     beforeSend: function() {
-                        $("#insert").val('Connecting...');
+                        $("#inserir_nova_tarefa").val('Connecting...');
                     },
                     success: function(data) {
                         if (data == "success") {
                             alert("inserted");
-                            $("#insert").val('submit');
+                            $("#inserir_nova_tarefa").val('submit');
                         } else if (data == "error") {
                             alert("error");
                         }
@@ -34,14 +40,6 @@
         });
     });
     </script>
-
-    <meta charset="utf-8">
-    <title>Level Strike</title>
-
-    <link href="./css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./css/master.css" media="screen" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
   </head>
   <body class="cor_fundo_app">
 

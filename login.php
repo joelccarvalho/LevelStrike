@@ -9,6 +9,7 @@ if($_POST){
   $existe = mysqli_query($link,$sql_query);
 
   if(mysqli_num_rows($existe) == 1 ){
+    res.header('Access-Control-Allow-Origin', "*");
     header("Location:main.html");
   }
   else{

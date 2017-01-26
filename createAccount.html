@@ -4,7 +4,7 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
-        $("#insert").click(function() {
+        $("#create").click(function() {
             var username = $("#username").val();
             var email = $("#email").val();
             var pass = $("#pass").val();
@@ -17,12 +17,12 @@
                     crossDomain: true,
                     cache: false,
                     beforeSend: function() {
-                        //$("#insert").val('Connecting...');
+                        $("#create").val('Connecting...');
                     },
                     success: function(data) {
                         if (data == "success") {
                             alert("inserted");
-                            //$("#insert").val('submit');
+                            $("#create").val('submit');
                         } else if (data == "error") {
                             alert("error");
                         }
@@ -69,7 +69,7 @@
         </div>
 
         <br><br><br>
-        <a href="main.html"><button type="submit" class="btn btn-info">
+        <a href="main.html"><button type="submit" id="create" name="create" class="btn btn-info">
               <span class="glyphicon glyphicon-ok-sign"></span> Create
         </button></a>
 
